@@ -10,6 +10,7 @@
 
           $int = 10;
           $str =  "Fuck you {$int} times!";//特殊字符、大括号、可以区分变量
-          $str =  'Fuck \\you \' !' ; //输出Fuck you '!
+          $str =  'Fuck \\you \' !' ; //输出Fuck \you '!
+          echo "{$str} \n";
 
  ?>
