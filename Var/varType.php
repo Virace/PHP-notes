@@ -10,16 +10,21 @@
           echo "以下是四种标量类型：，<br>";
           $var=true;
           var_dump($var);
+          echo "<br>";
           $var=1;
           var_dump($var);
+          echo "<br>";
           $var=1.11111;
           var_dump($var);
+          echo "<br>";
           $var="Hello World!";
           var_dump($var);
+          echo "<br>";
 
           echo "以下是两种复合类型：，<br>";
           $var = Array(1,2,3,4 );
           var_dump($var);
+          echo "<br>";
           /**
            *
            */
@@ -31,10 +36,12 @@
 
           $var = new demo();
           var_dump($var);
+          echo "<br>";
 
           echo "以下是两种特殊类型：，<br>";
           $var=mysqli_connect("localhost","root","");//数据库连接语句
           var_dump($var);
+          echo "<br>";
 
           $var=NULL;
           var_dump($var);
