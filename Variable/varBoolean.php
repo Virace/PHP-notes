@@ -1,4 +1,4 @@
-<<?php
+<?php
 /**
  * boolean布尔型
  * @var boolean
